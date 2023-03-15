@@ -3,10 +3,8 @@ package com.pom_with_pageFactory.Scripts;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;
 
-import com.pom_with_pageFactory.Pages.LoginPage;
 import com.pom_with_pageFactory.Pages.RegisterPage;
 
-import utilities.Base;
 
 public class RegisterTest extends LoginTest {    //extends LoginTest-to get the - after login - driver details
 	

@@ -1,9 +1,9 @@
 package com.pom_with_pageFactory.Scripts;
 
-import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;
 
 import com.pom_with_pageFactory.Pages.LoginPage;
+
 import utilities.Base;
 
 public class LoginTest extends Base {
