@@ -25,7 +25,7 @@ public class LoginPage {
 		user.sendKeys("tutorial");
 		Thread.sleep(2000);
 		pass.sendKeys("tutorial");
-		Thread.sleep(2000);
+		Thread.sleep(3000);
 		submit.click();
 	}
 }
