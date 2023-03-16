@@ -2,6 +2,8 @@ package utilities;
 
 import org.testng.annotations.Test;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 import java.io.File;
 import java.io.IOException;
 
@@ -31,7 +33,7 @@ public class Base {
 
   @BeforeTest
   public void beforeTest() {
-	  System.setProperty("webdriver.edge.driver", "C:\\Drivers\\New\\edgedriver_win64\\msedgedriver.exe");
+	  WebDriverManager.edgedriver().setup();
 	  driver=new EdgeDriver();
 	  driver.get("https://demo.guru99.com/test/newtours/index.php");          //login
 	  driver.manage().window().maximize();
