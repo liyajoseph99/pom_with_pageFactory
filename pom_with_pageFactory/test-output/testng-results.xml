@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="35356" started-at="2023-03-16T11:28:01 IST" finished-at="2023-03-16T11:28:36 IST">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="35356" started-at="2023-03-16T11:28:01 IST" finished-at="2023-03-16T11:28:36 IST">
+      <class name="com.pom_with_pageFactory.Scripts.LoginTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.pom_with_pageFactory.Scripts.LoginTest@75c072cb]" name="beforeTest" is-config="true" duration-ms="21221" started-at="2023-03-16T11:28:01 IST" finished-at="2023-03-16T11:28:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.pom_with_pageFactory.Scripts.LoginTest@75c072cb]" name="login" duration-ms="12113" started-at="2023-03-16T11:28:22 IST" finished-at="2023-03-16T11:28:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.pom_with_pageFactory.Scripts.LoginTest@75c072cb]" name="afterMethod" is-config="true" duration-ms="1098" started-at="2023-03-16T11:28:34 IST" finished-at="2023-03-16T11:28:35 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=LoginTest.login()[pri:0, instance:com.pom_with_pageFactory.Scripts.LoginTest@75c072cb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.pom_with_pageFactory.Scripts.LoginTest@75c072cb]" name="afterTest" is-config="true" duration-ms="771" started-at="2023-03-16T11:28:35 IST" finished-at="2023-03-16T11:28:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.pom_with_pageFactory.Scripts.LoginTest -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>
